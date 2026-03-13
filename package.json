@@ -10,7 +10,8 @@
     "format": "prettier . --write",
     "format:check": "prettier . --check",
     "lint": "npm run lint --workspaces --if-present",
-    "lint:fix": "npm run lint:fix --workspaces --if-present"
+    "lint:fix": "npm run lint:fix --workspaces --if-present",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "apps/*"
   ],
   "devDependencies": {
+    "husky": "^9.1.7",
     "prettier": "^3.8.1"
   }
 }
